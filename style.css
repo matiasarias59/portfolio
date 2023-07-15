@@ -8,8 +8,16 @@ body {
 
 }
 
+section{
+    min-height: 50vh;
+    margin-bottom: 5rem;
+    overflow: hidden;
+}
 
-
+section:last-child{
+    min-height: auto;
+    margin-bottom: 2rem;
+}
 .skill__img{
     filter: grayscale(50);
 
@@ -17,4 +25,8 @@ body {
 .skill__img:hover {
     filter: grayscale(0);
     transition: all 1s ease;
+}
+
+.proyect__img{
+    width: 100%;
 }
